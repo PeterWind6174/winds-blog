@@ -26,9 +26,8 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 
 // https://astro.build/config
 export default defineConfig({
-	// TODO: update this to your actual Cloudflare Pages URL (e.g. https://winds-blog.pages.dev/)
-	// once the project is created, or to your custom domain if you add one later.
-	site: "https://winds-blog.pages.dev/",
+	// Update this if you later add a custom domain.
+	site: "https://winds-blog.ditch-raga-4j.workers.dev/",
 	base: "/",
 	trailingSlash: "always",
 	integrations: [
